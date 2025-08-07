@@ -34,6 +34,10 @@ function App() {
       <div className="container">
         <div className="todo-app">
           <h2>To-Do List <img src="src/assets/icon.png" alt="icon image" /></h2>
+          <div class="row">
+            <input type="text" id="input-box" placeholder="Add your text"/>
+            <button onclick="addTask()">Add</button>
+        </div>
 
         </div>
       </div>
