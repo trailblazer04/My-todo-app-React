@@ -31,7 +31,12 @@ function App() {
     // </>
 
     <>
-      <h1>My Todo App</h1>
+      <div className="container">
+        <div className="todo-app">
+          <h2>To-Do List <img src="src/assets/icon.png" alt="icon image" /></h2>
+
+        </div>
+      </div>
     </>
   )
 }
